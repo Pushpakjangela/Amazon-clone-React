@@ -1,0 +1,12 @@
+
+.orders {
+    margin: 0px;
+    padding: 0px;
+}
+
+.orders h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px 180px;
+    font-size: 3.1rem;
+    color: #000;
+}

@@ -1,0 +1,139 @@
+.header{
+    /* width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232f3f;
+    background-color: red; */
+    height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #232f3f;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+
+.header img{
+    /* width: 7vw;
+    margin-left: 40px; */
+    width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+}
+.search{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+    display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+}
+.search input{
+    /* margin-left: -1-2vw;
+    width: 45vw;
+    padding: 9px; */
+    height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+    
+}
+.input_icon{
+    /* color: #000;
+    background-color: #febd69;
+    width: 3rem;
+    height: 3rem;
+    padding: 5.8px;
+    margin-top:4px ;
+    margin-left:-1px; */
+    padding: 5px;
+  height: 22px !important;
+  background-color: #cd9042;
+
+    
+}
+.signin{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: -100px;
+}
+.orders{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: -150px !important;
+
+}
+
+.prime{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    gap: 30px;
+
+}
+.primelogo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: -150px;
+}
+
+.storelogo{
+    color: #fff;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+.store_icon{
+    width: 2rem !important;
+    height: 2rem !important;
+    color: #fff;
+}
+.chartcount{
+    font-size:1.5rem ;
+}
+.spanclass1{
+    font-size:1vw;
+    color: #cccccc;
+
+}
+.spanclass2{
+    font-size: 1vw;
+    color: #cccccc;
+
+}
+.spanclass3{
+    font-size: 1vw;
+    color: #cccccc;
+
+}
+.spanclasstext1{
+    font-size:1.1vw;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    
+}
+.spanclasstext2{
+    font-size:1.1vw;
+    font-weight: 600;
+}
+.spanclasstext3{
+    font-size:1.1vw;
+    font-weight: 600;
+}
